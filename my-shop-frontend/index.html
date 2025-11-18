@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my-shop-frontend</title>
+  <!-- Tailwind Play CDN — dev only -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Optional: configure Tailwind (custom colors, content scanning not needed for CDN) -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { brand: '#0ea5a4' }
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
